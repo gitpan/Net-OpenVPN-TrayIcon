@@ -44,11 +44,11 @@
    "provides" : {
       "Net::OpenVPN::TrayIcon" : {
          "file" : "lib/Net/OpenVPN/TrayIcon.pm",
-         "version" : "v0.2.0"
+         "version" : "v0.2.1"
       },
       "Net::OpenVPN::TrayIcon::Version" : {
          "file" : "lib/Net/OpenVPN/TrayIcon/Version.pm",
-         "version" : "v0.2.0"
+         "version" : "v0.2.1"
       }
    },
    "release_status" : "stable",
@@ -57,5 +57,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v0.02"
+   "version" : "0.02.01"
 }

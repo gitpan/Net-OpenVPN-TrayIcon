@@ -19,10 +19,10 @@ no_index:
 provides:
   Net::OpenVPN::TrayIcon:
     file: lib/Net/OpenVPN/TrayIcon.pm
-    version: v0.2.0
+    version: v0.2.1
   Net::OpenVPN::TrayIcon::Version:
     file: lib/Net/OpenVPN/TrayIcon/Version.pm
-    version: v0.2.0
+    version: v0.2.1
 requires:
   Data::Section: 0
   Gtk2: 0
@@ -33,4 +33,4 @@ requires:
   Time::HiRes: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: v0.02
+version: 0.02.01
