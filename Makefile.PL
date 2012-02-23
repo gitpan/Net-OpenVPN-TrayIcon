@@ -2,22 +2,23 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-  'NAME' => 'Net::OpenVPN::TrayIcon',
-  'VERSION_FROM' => 'lib/Net/OpenVPN/TrayIcon/Version.pm',
-  'PREREQ_PM' => {
-                   'Data::Section' => 0,
-                   'Gtk2' => 0,
-                   'Gtk2::TrayIcon' => 0,
-                   'MIME::Base64' => 0,
-                   'Moo' => 0,
-                   'POSIX' => 0,
-                   'Test::More' => 0,
-                   'Time::HiRes' => 0
-                 },
+  'PL_FILES' => {},
   'INSTALLDIRS' => 'site',
+  'NAME' => 'Net::OpenVPN::TrayIcon',
   'EXE_FILES' => [
                    'script/ovpntray.pl'
                  ],
-  'PL_FILES' => {}
+  'VERSION_FROM' => 'lib/Net/OpenVPN/TrayIcon/Version.pm',
+  'PREREQ_PM' => {
+                   'Moo' => 0,
+                   'Data::Section' => 0,
+                   'Time::HiRes' => 0,
+                   'Test::More' => 0,
+                   'POSIX' => 0,
+                   'MIME::Base64' => 0,
+                   'Gtk2::TrayIcon' => 0,
+                   'Gtk2' => 0,
+                   'Proc::Daemon' => 0
+                 }
 )
 ;
